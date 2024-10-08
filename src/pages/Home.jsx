@@ -1,10 +1,12 @@
+import Header from '../components/Header'
+
+
+
 function Home () {
   return (
    <> 
-   <h1>Home</h1>
-   <div>
-    <p className="font-bold"> This is the main section</p>
-   </div>
+   <Header />
+   
    </>
   )
  }
