@@ -3,7 +3,7 @@ function Home () {
    <> 
    <h1>Home</h1>
    <div>
-    <p> This is the main section</p>
+    <p className="font-bold"> This is the main section</p>
    </div>
    </>
   )
