@@ -8,7 +8,7 @@ function Home () {
    <> 
    <Header />
    <Rating />
-   {/* <Grid /> */}
+   <Grid />
    </>
   )
  }
