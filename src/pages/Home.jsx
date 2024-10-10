@@ -1,6 +1,6 @@
 import Header from '../components/Header'
 import Rating from '../components/Ratings'
-
+import Grid from '../components/Grid'
 
 
 function Home () {
@@ -8,7 +8,7 @@ function Home () {
    <> 
    <Header />
    <Rating />
-   
+   {/* <Grid /> */}
    </>
   )
  }
