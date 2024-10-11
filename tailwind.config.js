@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         'arabic': ['Ramadhankarim', 'sans-serif'],
       },
+      blur: {
+        'extra-light': '1px', // Define a new blur class
+      },
     },
   },
   plugins: [

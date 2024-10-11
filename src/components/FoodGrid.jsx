@@ -42,7 +42,7 @@ export default function Example() {
               to={product.href}
               className="group relative border overflow-hidden"
             >
-              <div className="relative aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-sm lg:h-80">
+              <div className="relative aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md lg:h-80">
                 {/* Product image */}
                 <img
                   alt={product.text}
@@ -50,7 +50,7 @@ export default function Example() {
                   className="h-full w-full object-cover object-center"
                 />
                 {/* Overlay effect */}
-                <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-60 flex items-center justify-center backdrop-blur-lg">
+                <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-60 flex items-center justify-center">
                   <span className="text-white text-lg font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
                     {product.text}
                   </span>
