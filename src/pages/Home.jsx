@@ -9,8 +9,9 @@ function Home () {
    <> 
    <Header />
    <FoodGrid />
-   <Rating />
+   
    <Grid />
+   <Rating />
    </>
   )
  }

@@ -1,4 +1,4 @@
-import door from '../images/food.jpg'
+import spread from '../images/spread.jpg'
 
 
 export default function Header() {
@@ -6,7 +6,7 @@ export default function Header() {
     <div className="sticky flex isolate overflow-hidden text-center bg-gray-900 py-24 sm:py-32 min-h-screen shadow-2xl">
       <img
         alt=""
-        src={door}
+        src={spread}
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
       <div className="absolute inset-0 bg-gray-900 opacity-50 -z-10"></div>

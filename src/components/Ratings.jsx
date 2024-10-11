@@ -1,3 +1,9 @@
+
+import biggoog from '../images/google1.png'
+import yelp from '../images/yelp.png'
+import uber from '../images/uber.png'
+
+
 const posts = [
   {
     id: 1,
@@ -7,8 +13,8 @@ const posts = [
       'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
     author: {
       name: 'Google',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageSrc:
+        biggoog,
     },
   },
   {
@@ -20,8 +26,8 @@ const posts = [
     author: {
       name: 'Yelp',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageSrc:
+        yelp,
     },
   },
   {
@@ -31,10 +37,10 @@ const posts = [
     description:
       'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
     author: {
-      name: 'Michelin',
+      name: 'Uber',
       href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageSrc:
+        uber,
     },
   },
   // More posts...
@@ -56,7 +62,7 @@ export default function Rating() {
             <article key={post.id} className="flex max-w-xl flex-col items-center justify-between">
 
               <div className="relative mt-8 flex flex-col items-center gap-x-4">
-                              <img alt="" src={post.author.imageUrl} className="h-40 w-40 rounded-full bg-gray-50" />
+                              <img alt="" src={post.author.imageSrc} className="h-40 w-40 rounded-full bg-white" />
                             
                               <div className="text-md leading-6">
                                 <p className="font-semibold text-gray-900 py-4">
