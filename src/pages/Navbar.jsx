@@ -2,7 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-router-dom";
 
-import logo from '../images/alladin.png'
+import logo from '../images/icons8-genie-lamp-50.png'
 
 
 const navigation = [
@@ -42,6 +42,7 @@ export default function Contact() {
                 className="h-10 w-auto"
               />
             </div>
+            <h1 className='font-arabic text-white text-3xl'>Oualili </h1>
           </div>
 
           

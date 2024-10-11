@@ -1,5 +1,4 @@
 import background from '../images/moroccan.webp';
-import tiles from '../images/tiles.jpg';
 
 export default function Example() {
   return (
@@ -23,17 +22,6 @@ export default function Example() {
         </div>
       </div>
 
-      {/* Tiles beneath the content */}
-      {/* <div
-        className="absolute bottom-0 left-0 right-0"
-        style={{
-          backgroundImage: `url(${tiles})`,
-          backgroundRepeat: 'repeat-x', // Repeats the image horizontally
-          backgroundSize: 'auto 50px', // Ensures the height is 100px
-          height: '50px',
-          width: '100%', // Takes up the full width of the device
-        }}
-      /> */}
     </div>
   );
 }

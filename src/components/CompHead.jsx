@@ -8,7 +8,7 @@ export default function Example() {
       <img
         alt=""
         src={background}
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center blur-sm"
+        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center blur-extra-light"
       />
       {/* Semi-transparent overlay */}
       <div className="absolute inset-0 bg-gray-900 opacity-50 -z-10"></div>

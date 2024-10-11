@@ -19,13 +19,13 @@ export default function Mission(){
           boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.25)', 
         }}
       /> */}
-      <div className="big-div flex lg:flex-row sm:flex-col justify-center p-10 gap-4 my-10 border-b shadow-lg ">
+      <div className="big-div flex lg:flex-row sm:flex-col justify-center p-10 gap-8 my-10 border-b shadow-lg ">
         {/* Text container */}
         <div>
         <div className="text-div border p-20 bg-slate-200 h-full w-full">
           <h1 className="text-center p-4 font-semibold text-2xl">Our Mission</h1>
           <p className="text-center text-lg">At Oualili, our mission is to bring the vibrant and authentic flavors of Morocco and North Africa to your table, where every dish is handcrafted with passion and care. We are dedicated to using the finest, freshest ingredients to create homemade meals that celebrate the rich culinary traditions of our culture. Our commitment to quality is reflected in every plate, offering an unforgettable dining experience that honors the art of North African cooking. From our kitchen to your heart, we invite you to savor the warmth, flavors, and hospitality that define Morocco.</p>
-          {/* Tiles beneath the content */}
+          
        
         </div>
         
