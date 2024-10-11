@@ -9,3 +9,17 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('./fonts/PlayfairDisplayMedium-9YKZK.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairBold';
+  src: url('./fonts/PlayfairDisplayBold-nRv8g.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

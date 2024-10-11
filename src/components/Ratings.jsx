@@ -2,7 +2,7 @@
 import biggoog from '../images/google1.png'
 import yelp from '../images/yelp.png'
 import uber from '../images/uber.png'
-
+import tiles from '../images/tiles.jpg';
 
 const posts = [
   {
@@ -49,6 +49,7 @@ const posts = [
 export default function Rating() {
   return (
     <div className="bg-white py-2 pb-20">
+      
       <div className="mx-auto max-w-8xl px-20 lg:px-20">
         {/* <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
@@ -57,15 +58,15 @@ export default function Rating() {
           </p>
         </div> */}
 
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  border-b border-gray-200 py-5 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  border-b border-gray-200 py-5 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
           {posts.map((post) => (
-            <article key={post.id} className="flex max-w-xl flex-col items-center justify-between">
+            <article key={post.id} className="flex max-w-xl flex-col items-center justify-between shadow-md rounded-lg py-10">
 
               <div className="relative mt-8 flex flex-col items-center gap-x-4">
                               <img alt="" src={post.author.imageSrc} className="h-40 w-40 rounded-full bg-white" />
                             
                               <div className="text-md leading-6">
-                                <p className="font-semibold text-gray-900 py-4">
+                                <p className="font-bold text-gray-900 py-4">
                                     {post.author.name}
                                 </p>
                               </div>
@@ -76,7 +77,7 @@ export default function Rating() {
                 <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                     {post.title}
                 </h3>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 pb-20">{post.description}</p>
+                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 pb-10 px-10">{post.description}</p>
 
                 <div className="flex justify-center">
                 <svg

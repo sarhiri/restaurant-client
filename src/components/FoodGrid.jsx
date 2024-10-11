@@ -51,7 +51,7 @@ export default function Example() {
                 />
                 {/* Overlay effect */}
                 <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-60 flex items-center justify-center">
-                  <span className="text-white text-lg font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                  <span className="text-white font-play text-lg font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
                     {product.text}
                   </span>
                 </div>
@@ -63,7 +63,7 @@ export default function Example() {
 
       {/* Order button */}
       <div className="flex justify-center items-center mb-20">
-        <button className="bg-rose-900 hover:bg-rose-200 text-white py-2 px-4 rounded">
+        <button className="bg-rose-900 hover:bg-rose-200 text-white py-2 px-4 rounded gap-2">
           ORDER NOW
         </button>
       </div>

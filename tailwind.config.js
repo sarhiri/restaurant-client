@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'arabic': ['Ramadhankarim', 'sans-serif'],
+        'play': ['Playfair', 'sans-serif'],
+        'playbold': ['PlayfairBold', 'sans-serif'],
       },
       blur: {
         'extra-light': '1px', // Define a new blur class
