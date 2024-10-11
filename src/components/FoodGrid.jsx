@@ -4,6 +4,7 @@ import grill from '../images/grill.jpg'
 import grill1 from '../images/grill.jpg'
 import grill2 from '../images/grill.jpg'
 import grill3 from '../images/grill.jpg'
+import { Button } from '@headlessui/react';
 
 const images = [
   { src: grill1, text: 'Grill 1' },
@@ -22,7 +23,7 @@ return(
             <img 
               src={image.src} 
               alt={`Food ${index + 1}`} 
-              className="w-50 h-50 transition duration-300 ease-in-out group-hover:blur-sm" 
+              className="w-40 h-50 object-cover transition duration-300 ease-in-out group-hover:blur-sm" 
             />
             <div className="absolute inset-0 bg-black opacity-0 transition duration-300 ease-in-out group-hover:opacity-50 flex justify-center items-center">
               <span className="text-white text-lg font-bold opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
@@ -31,6 +32,9 @@ return(
             </div>
           </Link>
           ))}
+        </div>
+        <div>
+          <Button />
         </div>
       </div>
   </>
