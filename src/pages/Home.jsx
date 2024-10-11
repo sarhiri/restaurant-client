@@ -11,7 +11,7 @@ function Home () {
    <Header />
    <FoodGrid />
    {/* <Tiles /> */}
-   <Grid />
+   {/* <Grid /> */}
    <Rating />
    </>
   )

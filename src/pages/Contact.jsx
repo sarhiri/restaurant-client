@@ -1,18 +1,21 @@
 
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import Header from '../components/CompHead'
 
 export default function Example() {
   
 
   return (
-    <div className="isolate bg-white px-6 lg:py-20 sm:py-20 lg:px-8 border">
+    <>
+    <Header />
+    <div className="isolate bg-white px-6 lg:py-10 sm:py-20 lg:px-8 border">
       
-      <div className="mx-auto max-w-2xl text-center">
+      {/* <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact Us!</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
           Aute magna irure deserunt veniam aliqua magna enim voluptate.
         </p>
-      </div>
+      </div> */}
       <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
@@ -115,5 +118,6 @@ export default function Example() {
         </div>
       </form>
     </div>
+    </>
   )
 }

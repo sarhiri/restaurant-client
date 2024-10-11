@@ -1,3 +1,5 @@
+import MenuHead from '../components/MenuHead'
+
 const appetizers = [
   { title: "Chicken Pastilla Rolls", description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit." },
   { title: "Seafood Pastilla Triangles", description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit." },
@@ -100,7 +102,8 @@ const MenuSection = ({ title, items }) => {
 const MenuPage = () => {
   return (
     <div>
-      <h1 className="text-6xl text-center p-10">Menu</h1>
+      
+      <MenuHead />
     <div className="container mx-auto px-4 py-8">
       <MenuSection title="Appetizers" items={appetizers} />
       <MenuSection title="Salads" items={salads} />
