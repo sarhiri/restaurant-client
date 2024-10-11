@@ -5,7 +5,11 @@ module.exports = {
   ],
   mode:'jit',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'arabic': ['Ramadhankarim', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),

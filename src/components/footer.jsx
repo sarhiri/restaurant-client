@@ -15,9 +15,9 @@ function Footer() {
         <p>PRESS</p>
       </div>
       <p className="text-xs py-2">Sofia Sarhiri©  All rights reserved.</p>
-      <div className="relative bottom-0 w-full">
+      {/* <div className="relative bottom-0 w-full">
       <Tiles />
-      </div>
+      </div> */}
     </footer>
   );
 }

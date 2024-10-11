@@ -10,7 +10,7 @@ const posts = [
     title: 'This food was amazing!',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'The flavors here are incredible! Every bite transported me to Morocco. The tagine was perfectly cooked, and the spices were spot on. Will definitely be back!',
     author: {
       name: 'Google',
       imageSrc:
@@ -22,7 +22,7 @@ const posts = [
     title: 'Best Moroccan food EVER!',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'Such an amazing experience! The lamb couscous was so tender and flavorful. You can really taste the care and quality in every dish. Highly recommend!',
     author: {
       name: 'Yelp',
       href: '#',
@@ -35,9 +35,9 @@ const posts = [
     title: '5/5 Stars!!!!',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'Authentic Moroccan food at its finest! The staff was friendly, and the atmosphere was warm and inviting. The mint tea and pastries were a perfect finish!',
     author: {
-      name: 'Uber',
+      name: 'Uber Eats',
       href: '#',
       imageSrc:
         uber,
@@ -57,7 +57,7 @@ export default function Rating() {
           </p>
         </div> */}
 
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-b border-gray-200 py-5 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  border-b border-gray-200 py-5 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
             <article key={post.id} className="flex max-w-xl flex-col items-center justify-between">
 
