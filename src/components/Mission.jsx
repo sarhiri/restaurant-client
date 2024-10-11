@@ -1,18 +1,25 @@
+import bread from '../images/bread.jpg'
+
 export default function Mission(){
 
     return (
       <>
-      <div className="big-div flex flex-row justify-center p-10 gap-1 ">
+      <div className="big-div flex flex-row justify-center py-20 px-10 gap-4 my-10 ">
         {/* Text container */}
-        <div className="text-div border ">
-          <h1 className="text-center p-2">Our Mission</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Pariatur, dicta recusandae ratione voluptates quam repellendus aspernatur doloremque tempora,<br /> quas architecto maiores nemo voluptatibus. Perferendis molestias, aliquid laborum eligendi eum aperiam.</p>
+        <div className="text-div border p-10">
+          <h1 className="text-center p-4">Our Mission</h1>
+          <p className="text-center">At Oualili, our mission is to bring the vibrant and authentic flavors of Morocco and North Africa to your table, where every dish is handcrafted with passion and care. We are dedicated to using the finest, freshest ingredients to create homemade meals that celebrate the rich culinary traditions of our culture. Our commitment to quality is reflected in every plate, offering an unforgettable dining experience that honors the art of North African cooking. From our kitchen to your heart, we invite you to savor the warmth, flavors, and hospitality that define Morocco.</p>
         </div>
         {/* Image container */}
-        <div className="img-div border">
-        <h1 className="p-2">A picture will go on this side</h1>
-
+        <div className="img-div ">
+        
+        <img
+        alt=""
+        src={bread}
+        className="relative inset-0 -z-10  object-right "
+      />
+         
+        
         </div>
 
       </div>

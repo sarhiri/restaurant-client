@@ -6,7 +6,7 @@ export default function Example() {
     <div className="bg-rose-200">
       <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-0 ">
         {/* Text Box 1 */}
-        <div className="bg-rose-200 aspect-w-1 aspect-h-1 overflow-hidden rounded-sm flex items-center justify-center p-4">
+        <div className="bg-white aspect-w-1 aspect-h-1 overflow-hidden rounded-sm flex items-center justify-center p-4">
           <div className="text-center ">
             <h1 className="text-3xl">Our Restaurant</h1>
             <h3 className="text-2xl">Hours:</h3>
@@ -33,7 +33,7 @@ export default function Example() {
           />
         </div>
         {/* Text Box 2 */}
-        <div className="bg-rose-200 aspect-w-1 aspect-h-1 overflow-hidden rounded-sm flex items-center justify-center p-4">
+        <div className="bg-white aspect-w-1 aspect-h-1 overflow-hidden rounded-sm flex items-center justify-center p-4">
           <div className="text-center">
             <h1 className="text-3xl">About Us</h1>
             <p className="mt-2">We serve delicious food with a great vibe.</p>
