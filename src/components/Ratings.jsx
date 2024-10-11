@@ -74,7 +74,7 @@ export default function Rating() {
 
                 <div className="flex justify-center">
                 <svg
-               fill="#000000" 
+               fill="#111827" 
                height="100px" 
                width="100px" 
                version="1.1" 

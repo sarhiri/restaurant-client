@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Contact() {
   return (
-    <Disclosure as="nav" className="bg-gray-300 relative  top-0 z-10">
+    <Disclosure as="nav" className="bg-gray-900 relative  top-0 z-10">
       <div className="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
 

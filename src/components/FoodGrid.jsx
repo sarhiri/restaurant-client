@@ -1,42 +1,66 @@
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'
+import appetizer from '../images/app.JPG'
+import main from '../images/kefta.JPG'
+import dessert from '../images/cookie.JPG'
+import tea from '../images/tea.JPG'
 
-import grill from '../images/grill.jpg'
-import grill1 from '../images/grill.jpg'
-import grill2 from '../images/grill.jpg'
-import grill3 from '../images/grill.jpg'
-import { Button } from '@headlessui/react';
+const products = [
+  {
+    id: 1,
+    href: '/menu',
+    imageSrc: appetizer,
+    text: 'Appetizers',
+   
+  },
+  // More products...
+  {
+    id: 2,
+    href: '/menu',
+    imageSrc: main,
+    text: 'Entrees',
+    
+  },
+  {
+    id: 3,
+    href: '/menu',
+    imageSrc: dessert,
+    text: 'Dessert',
+    
+  },
+  {
+    id: 4,
+    href: '/menu',
+    imageSrc: tea,
+    text: 'Drinks',
+    
+  },
+]
 
-const images = [
-  { src: grill1, text: 'Grill 1' },
-  { src: grill2, text: 'Grill 2' },
-  { src: grill3, text: 'Grill 3' },
-  { src: grill, text: 'Grill 4' },
-];
+export default function Example() {
+  return (
+    <div className="bg-gray-200">
+      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
 
-export default function FoodGrid(){
-return(
-  <>
-  <div className="">
-        <div className="grid grid-cols-4 gap-5 sm:grid-cols-1 lg:max-w-none md:grid-cols-1 lg:grid-cols-4 m-5 py-20 px-20">
-          {images.map((image, index) => (
-            <Link key={index} to="/menu" className="relative border overflow-hidden group">
-            <img 
-              src={image.src} 
-              alt={`Food ${index + 1}`} 
-              className="w-40 h-50 object-cover transition duration-300 ease-in-out group-hover:blur-sm" 
-            />
-            <div className="absolute inset-0 bg-black opacity-0 transition duration-300 ease-in-out group-hover:opacity-50 flex justify-center items-center">
-              <span className="text-white text-lg font-bold opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
-                {image.text}
-              </span>
-            </div>
-          </Link>
+        <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        {products.map((product) => (
+            <Link key={product.id} to={product.href} className="group relative"> {/* Wrap each image in Link */}
+              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                <img
+                  alt={product.imageAlt}
+                  src={product.imageSrc}
+                  className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                />
+                <div className="absolute inset-0 bg-black opacity-0 transition duration-300 ease-in-out group-hover:opacity-50 flex justify-center items-center">
+                <span className="text-white text-lg font-bold opacity-0 transition duration-300 ease-in-out group-hover:opacity-100">
+                    {product.text}
+                  </span>
+                </div>
+              </div>
+            </Link>
+
           ))}
         </div>
-        <div>
-          <Button />
-        </div>
       </div>
-  </>
-)
+    </div>
+  )
 }

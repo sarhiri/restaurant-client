@@ -9,7 +9,7 @@ export default function Header() {
         src={door}
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
-      <div className="absolute inset-0 bg-gray-600 opacity-50 -z-10"></div>
+      <div className="absolute inset-0 bg-gray-900 opacity-50 -z-10"></div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Welcome</h2>
