@@ -1,6 +1,8 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-router-dom";
+import tajine from '../images/tajine.png'
+
 
 const navigation = [
   { name: 'Home', to: '/', current: false },
@@ -15,7 +17,7 @@ function classNames(...classes) {
 
 export default function Contact() {
   return (
-    <Disclosure as="nav" className="bg-gray-500 sticky top-0 z-10">
+    <Disclosure as="nav" className="bg-gray-500 relative  top-0 z-10">
       <div className="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
 
@@ -34,7 +36,7 @@ export default function Contact() {
             <div className="flex flex-shrink-0 ">
               <img
                 alt="Restaurant logo"
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
+                src={tajine}
                 className="h-8 w-auto"
               />
             </div>

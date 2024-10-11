@@ -56,24 +56,43 @@ export default function Rating() {
             <article key={post.id} className="flex max-w-xl flex-col items-center justify-between">
 
               <div className="relative mt-8 flex flex-col items-center gap-x-4">
-                              <img alt="" src={post.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
+                              <img alt="" src={post.author.imageUrl} className="h-40 w-40 rounded-full bg-gray-50" />
                             
-                              <div className="text-sm leading-6">
-                                <p className="font-semibold text-gray-900">
+                              <div className="text-md leading-6">
+                                <p className="font-semibold text-gray-900 py-4">
                                     {post.author.name}
                                 </p>
                               </div>
 
                             </div>
 
-              <div className="group relative text-center">
+              <div className="group relative text-center items-center">
                 <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
                     {post.title}
                 </h3>
                 <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 pb-20">{post.description}</p>
+
+                <div className="flex justify-center">
+                <svg
+               fill="#000000" 
+               height="100px" 
+               width="100px" 
+               version="1.1" 
+               id="Icons" 
+               xmlns="http://www.w3.org/2000/svg" 
+               xmlnsXlink="http://www.w3.org/1999/xlink" 
+               viewBox="0 0 32 32" 
+               xmlSpace="preserve" 
+               stroke="#000000"
+               >
+                <g> 
+                  <path d="M23,9c-2.8,0-5,2.2-5,5s2.2,5,5,5c0.3,0,0.7,0,1-0.1c-1.3,1.3-3,2.1-5,2.1c-0.6,0-1,0.4-1,1s0.4,1,1,1c5,0,9-4,9-9 C28,11.2,25.8,9,23,9z"></path> <path d="M9,9c-2.8,0-5,2.2-5,5s2.2,5,5,5c0.3,0,0.7,0,1-0.1C8.7,20.2,7,21,5,21c-0.6,0-1,0.4-1,1s0.4,1,1,1c5,0,9-4,9-9 C14,11.2,11.8,9,9,9z"></path> 
+                  </g> 
+              </svg>
               </div>
-
-
+              </div>
+              
+              
               
 
 
