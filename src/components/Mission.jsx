@@ -4,7 +4,7 @@ export default function Mission(){
 
     return (
       <>
-      <div className="big-div flex flex-row justify-center py-20 px-10 gap-4 my-10 ">
+      <div className="big-div flex lg:flex-row sm:flex-col justify-center py-10 px-10 gap-4 my-10 ">
         {/* Text container */}
         <div className="text-div border p-10">
           <h1 className="text-center p-4">Our Mission</h1>

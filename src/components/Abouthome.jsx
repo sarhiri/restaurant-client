@@ -1,4 +1,5 @@
 import background from '../images/moroccan.webp';
+import Tiles from '../components/TileRow'
 
 export default function Example() {
   return (
@@ -11,6 +12,7 @@ export default function Example() {
       />
       {/* Semi-transparent overlay */}
       <div className="absolute inset-0 bg-gray-900 opacity-50 -z-10"></div>
+      
 
       {/* Content */}
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -22,6 +24,9 @@ export default function Example() {
           </p>
         </div>
       </div>
+      {/* <div className="relative bottom-0 w-full">
+      <Tiles />
+      </div> */}
     </div>
   );
 }

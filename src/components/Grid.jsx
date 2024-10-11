@@ -3,7 +3,7 @@ import food2 from '../images/vibes.jpeg';
 
 export default function Example() {
   return (
-    <div className="bg-rose-200">
+    <div className="bg-rose-200 mt-20">
       <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-0 ">
         {/* Text Box 1 */}
         <div className="bg-white aspect-w-1 aspect-h-1 overflow-hidden rounded-sm flex items-center justify-center p-4">
