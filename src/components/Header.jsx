@@ -11,7 +11,7 @@ export default function Header() {
       />
       <div className="absolute inset-0 bg-gray-900 opacity-50 -z-10"></div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8 items-center pt-20">
-        <div className="mx-auto max-w-2xl lg:mx-0  p-20  flex items-center"> {/* Added flex and items-center */}
+        <div className="mx-auto max-w-2xl lg:mx-0  p-20  flex items-center border-4 shadow-md"> {/* Added flex and items-center */}
           <div className="flex-shrink-0"> {/* Prevents the lamp from shrinking */}
             <img
               alt=""
@@ -19,7 +19,7 @@ export default function Header() {
               className=" h-auto w-auto object-center" // Adjust size as needed
             />
           </div>
-          <h2 className="lg:text-9xl font-bold tracking-tight text-white sm:text-6xl font-arabic "> {/* Added margin to the left */}
+          <h2 className="lg:text-9xl font-semibold tracking-tight text-white  font-arabic "> {/* Added margin to the left */}
             Oualili
           </h2>
         </div>

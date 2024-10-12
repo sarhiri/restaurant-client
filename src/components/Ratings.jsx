@@ -58,12 +58,12 @@ export default function Rating() {
           </p>
         </div> */}
 
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  border-b border-gray-200 py-5 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  border-b bg-white border-gray-200 py-5 pb-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
           {posts.map((post) => (
-            <article key={post.id} className="flex max-w-xl flex-col items-center justify-between shadow-md rounded-lg py-10">
+            <article key={post.id} className="flex max-w-xl flex-col items-center justify-between shadow-md border rounded-lg py-10 bg-white">
 
               <div className="relative mt-8 flex flex-col items-center gap-x-4">
-                              <img alt="" src={post.author.imageSrc} className="h-40 w-40 rounded-full bg-white" />
+                              <img alt="" src={post.author.imageSrc} className="h-40 w-40 rounded-full " />
                             
                               <div className="text-md leading-6">
                                 <p className="font-bold text-gray-900 py-4">

@@ -33,16 +33,16 @@ const products = [
 
 export default function Example() {
   return (
-    <div className="bg-white border-b mb-10 shadow-lg">
+    <div className="bg-gradient-to-b from-gray-900 via-gray-700 to-gray-200 border-b mb-10 shadow-xl">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <Link
               key={product.id}
               to={product.href}
-              className="group relative border overflow-hidden"
+              className="group relative overflow-hidden"
             >
-              <div className="relative aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md lg:h-80">
+              <div className="relative aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg lg:h-80">
                 {/* Product image */}
                 <img
                   alt={product.text}
@@ -63,7 +63,7 @@ export default function Example() {
 
       {/* Order button */}
       <div className="flex justify-center items-center mb-20">
-        <button className="bg-rose-900 hover:bg-rose-200 text-white py-2 px-4 rounded gap-2">
+        <button className="bg-red-900 hover:bg-rose-200 text-white py-2 px-4 rounded gap-2 shadow-xl">
           ORDER NOW
         </button>
       </div>
