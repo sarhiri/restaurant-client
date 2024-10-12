@@ -4,7 +4,7 @@ import bread from '../images/bread.jpg'
 
 export default function Example() {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32 border-t m-5">
+    <div className="overflow-hidden bg-white py-24 sm:py-32 border-b shadow-lg p-5">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
@@ -17,9 +17,14 @@ export default function Example() {
               At Oualili, our mission is to bring the vibrant and authentic flavors of Morocco and North Africa to your table, where every dish is handcrafted with passion and care. We are dedicated to using the finest, freshest ingredients to create homemade meals that celebrate the rich culinary traditions of our culture. Our commitment to quality is reflected in every plate, offering an unforgettable dining experience that honors the art of North African cooking. From our kitchen to your heart, we invite you to savor the warmth, flavors, and hospitality that define Morocco.
               </p>
               <div className="flex justify-center items-center p-20">
-                <button className="bg-red-900 hover:bg-rose-200 text-white py-2 px-4 rounded gap-2 shadow-xl">
-                  ORDER NOW
-                </button>
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="/menu"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                ORDER NOW
+              </a>
+            </div>
               </div>
             </div>
           </div>
