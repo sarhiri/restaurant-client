@@ -62,11 +62,14 @@ export default function Example() {
       </div>
 
       {/* Order button */}
-      <div className="flex justify-center items-center mb-20">
-        <button className="bg-red-900 hover:bg-rose-200 text-white py-2 px-4 rounded gap-2 shadow-xl">
-          ORDER NOW
-        </button>
-      </div>
+            <div className='flex justify-center p-10 '>
+      <a
+                href="/menu"
+                className="rounded-md bg-red-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 tracking-wider"
+              >
+                ORDER NOW
+              </a>
+              </div>
     </div>
   );
 }

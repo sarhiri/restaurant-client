@@ -20,7 +20,7 @@ export default function MapWithText() {
       <div className="w-full lg:w-1/2 lg:pl-12 pt-10 lg:pt-0">
      
           <p className=" pb-5 text-2xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">Hours </p>
-        <div className=" pb-10 mt-3 text-center">
+        <div className=" pb-10 mt-3 text-center tracking-wide gap-y-1">
           Monday - Thursday, 12pm - 9pm <br/>
           Friday - Saturday, 12pm - 11pm <br/>
           Sunday, Closed

@@ -32,20 +32,23 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative " data-carousel="slide">
-      <div className="relative md:h-96 ">
+    <div className=''>
+    <div className="relative py-20" data-carousel="slide">
+      <div className="relative md:h-96 py-10 rounded-lg">
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`absolute block w-full transition-opacity duration-700 ease-in-out ${
+            className={`absolute block w-full transition-opacity  duration-700 ease-in-out ${
               currentSlide === index ? 'opacity-100' : 'opacity-0'
             }`}
           >
+            
             <img
               src={slide}
               alt={`Slide ${index + 1}`}
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
             />
+          <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
           </div>
         ))}
       </div>
@@ -56,7 +59,7 @@ const Carousel = () => {
           <button
             key={index}
             type="button"
-            className={`w-3 h-3 rounded-full ${currentSlide === index ? 'bg-white' : 'bg-gray-400'}`}
+            className={`w-3 h-3 rounded-full ${currentSlide === index ? 'bg-red-500' : 'bg-gray-400'}`}
             aria-label={`Slide ${index + 1}`}
             onClick={() => goToSlide(index)}
           ></button>
@@ -111,6 +114,7 @@ const Carousel = () => {
           <span className="sr-only">Next</span>
         </span>
       </button>
+    </div>
     </div>
   );
 };
