@@ -1,4 +1,4 @@
-import cilantro from '../images/cilantro.jpg'
+import cilantro from '../images/blue.jpg'
 
 export default function Example() {
   return (
@@ -12,13 +12,13 @@ export default function Example() {
               src={cilantro}
               width={2432}
               height={1442}
-              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] lg:relative lg:left-[-350px]" 
+              className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] lg:relative lg:left-[-400px]" 
               // Use negative left margins to push it off-screen
             />
           </div>
 
           {/* The text content remains on the right side */}
-          <div className="lg:pl-16 lg:pt-4">
+          <div className="lg:pl-10 lg:pt-4">
             <div className="lg:max-w-lg ">
               <h2 className="text-base font-semibold leading-7 text-red-600">About Us</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our History</p>

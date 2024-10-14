@@ -28,7 +28,7 @@ function Footer() {
           </div>
           <p className='font-arabic text-4xl'>Oualili</p>
         </div>
-        <div className="flex flex-row justify-center gap-5">
+        <div className="flex flex-row justify-center gap-5 text-sm font-extralight tracking-wide">
           <p>HOME</p>
           <p>MENU</p>
           <p>ORDER</p>

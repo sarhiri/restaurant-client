@@ -2,6 +2,7 @@ import Header from '../components/Header'
 import Rating from '../components/Ratings'
 import Grid from '../components/Grid'
 import FoodGrid from '../components/FoodGrid'
+import Hours from '../components/Hours'
 
 
 
@@ -12,6 +13,7 @@ function Home () {
    <FoodGrid />
    {/* <Grid /> */}
    <Rating />
+   <Hours />
    </>
   )
  }
