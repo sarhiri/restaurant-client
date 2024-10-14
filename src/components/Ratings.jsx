@@ -2,7 +2,7 @@
 import biggoog from '../images/google1.png'
 import yelp from '../images/yelp.png'
 import uber from '../images/uber.png'
-import tiles from '../images/tiles.jpg';
+
 
 const posts = [
   {
