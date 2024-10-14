@@ -50,7 +50,7 @@ export default function Rating() {
   return (
     <div className="bg-white py-2 pb-20">
       
-      <div className="mx-auto max-w-8xl px-20 lg:px-20">
+      <div className="mx-auto max-w-8xl px-20  lg:px-20">
         {/* <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
@@ -58,9 +58,10 @@ export default function Rating() {
           </p>
         </div> */}
 
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16  border-b bg-white border-gray-200 py-5 pb-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-b bg-white border-gray-200 py-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 ">
           {posts.map((post) => (
-            <article key={post.id} className="flex max-w-xl flex-col items-center justify-between shadow-md border rounded-lg py-10 bg-white">
+            <article key={post.id} 
+            className="flex max-w-xl flex-col items-center justify-between shadow-md border rounded-lg py-10 bg-white transition-transform transform hover:scale-105 hover:shadow-xl">
 
               <div className="relative mt-8 flex flex-col items-center gap-x-4">
                               <img alt="" src={post.author.imageSrc} className="h-40 w-40 rounded-full " />

@@ -11,7 +11,7 @@ export default function Header() {
       />
       <div className="absolute inset-0 bg-gray-900 opacity-50 -z-10"></div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8 items-center pt-20">
-        <div className="mx-auto max-w-2xl lg:mx-0  p-20  flex items-center border-4 shadow-md"> {/* Added flex and items-center */}
+        <div className="mx-auto max-w-2xl lg:mx-0  p-20  flex items-center border-2 shadow-md"> {/* Added flex and items-center */}
           <div className="flex-shrink-0"> {/* Prevents the lamp from shrinking */}
             <img
               alt=""

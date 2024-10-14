@@ -36,10 +36,10 @@ export default function Example() {
     <>
       <Header />
       <div className="isolate bg-white px-6 lg:py-10 sm:py-20 lg:px-8 border">
-        <form action="#" method="POST" className="mx-auto max-w-xl sm:mt-10 pb-10">
+        <form action="#" method="POST" className="mx-auto max-w-xl sm:mt-10 p-10 border rounded-md shadow-xl">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
-              <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
+              <label htmlFor="first-name" className="block text-md font-semibold leading-6 text-gray-900">
                 First name
               </label>
               <div className="mt-2.5">
@@ -55,7 +55,7 @@ export default function Example() {
               </div>
             </div>
             <div>
-              <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
+              <label htmlFor="last-name" className="block text-md font-semibold leading-6 text-gray-900">
                 Last name
               </label>
               <div className="mt-2.5">
@@ -72,7 +72,7 @@ export default function Example() {
             </div>
 
             <div className="sm:col-span-2">
-              <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
+              <label htmlFor="email" className="block text-md font-semibold leading-6 text-gray-900">
                 Email
               </label>
               <div className="mt-2.5">
@@ -88,7 +88,7 @@ export default function Example() {
               </div>
             </div>
             <div className="sm:col-span-2">
-              <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
+              <label htmlFor="phone-number" className="block text-md font-semibold leading-6 text-gray-900">
                 Phone number
               </label>
               <div className="relative mt-2.5">
@@ -122,7 +122,7 @@ export default function Example() {
               </div>
             </div>
             <div className="sm:col-span-2">
-              <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
+              <label htmlFor="message" className="block text-md font-semibold leading-6 text-gray-900">
                 Message
               </label>
               <div className="mt-2.5">
@@ -183,7 +183,7 @@ export default function Example() {
                 <button
                   type="button"
                   onClick={() => setIsModalOpen(false)}
-                  className="inline-flex w-full justify-center rounded-md bg-slate-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-500 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-slate-600 sm:w-auto"
+                  className="inline-flex w-full justify-center rounded-md bg-slate-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slatit-500 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-slate-600 sm:w-auto"
                 >
                   Close
                 </button>
