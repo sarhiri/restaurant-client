@@ -4,6 +4,7 @@ import Header from '../components/CompHead';
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react';
 import { CheckCircleIcon } from '@heroicons/react/24/outline';
 
+
 export default function Example() {
   // State variables for input fields
   const [firstName, setFirstName] = useState('');
@@ -141,7 +142,7 @@ export default function Example() {
             <button
               type="button"
               onClick={handleClear}
-              className="ml-4 block w-full rounded-md bg-red-900 px-3.5 py-2.5 text-center text-sm font-semibold text-white  shadow-sm hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400 tracking-wider"
+              className="ml-4 block w-full rounded-md bg-red-900 px-3.5 py-2.5 text-center text-sm font-semibold  text-white  shadow-sm hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-400 tracking-wider"
             >
               SUBMIT
             </button>
