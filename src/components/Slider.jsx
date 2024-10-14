@@ -1,13 +1,14 @@
 import  { useState, useEffect } from 'react';
-import appetizer from '../images/app.JPG';
-import main from '../images/harira.JPG';
-import dessert from '../images/cookie.JPG';
-import tea from '../images/tea.JPG';
+import pic1 from '../images/slider/slider1.jpg'
+import pic2 from '../images/slider/slider2.jpg'
+import pic3 from '../images/slider/slider3.jpg'
+import pic5 from '../images/slider/slider4.jpg'
+import pic6 from '../images/slider/slider5.jpg'
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    appetizer, main, dessert, tea
+    pic1, pic2, pic3, pic5, pic6
   ];
 
   // Automatic slide change every 5 seconds
@@ -31,8 +32,8 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full" data-carousel="slide">
-      <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+    <div className="relative " data-carousel="slide">
+      <div className="relative md:h-96 ">
         {slides.map((slide, index) => (
           <div
             key={index}

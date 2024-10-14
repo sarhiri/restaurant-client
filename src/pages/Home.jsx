@@ -2,7 +2,7 @@ import Header from '../components/Header'
 import Rating from '../components/Ratings'
 
 import FoodGrid from '../components/FoodGrid'
-import Slider from '../components/Slider'
+import Slider from '../components/SldeSection'
 
 
 
