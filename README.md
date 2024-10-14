@@ -1,10 +1,41 @@
-# Getting Started with Create React App
+# Moroccan Restaurant Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Moroccan Restaurant website! This site is designed to showcase our delicious Moroccan cuisine and provide an easy way for clients to explore our menu, make reservations, and learn more about our restaurant. 
 
-## Available Scripts
+## For Clients
 
-In the project directory, you can run:
+### Features
+
+- **Menu Exploration**: View our extensive menu of Moroccan dishes, including appetizers, main courses, and desserts.
+- **Location Information**: Find our restaurant's address and get directions.
+- **Contact Us**: Reach out to us with any inquiries or feedback through our contact form.
+
+### How to Use
+
+1. **Browse the Menu**: Navigate through our menu to discover our offerings.
+2. **Get Directions**: Use the map provided to find the best route to our restaurant.
+3. **Contact Us**: Fill out the contact form for any questions or special requests.
+
+## For Developers
+
+### Overview
+
+This website is built with a modern web stack, ensuring a responsive and user-friendly experience. It is designed to be easily maintainable and extensible for future updates.
+
+### Technologies Used
+
+- React, Tailwind, Framer.
+
+### Installation
+
+To get started with the development of this website, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sarhiri/moroccan-restaurant.git
+   cd moroccan-restaurant
+
+2. In the project directory, you can run:
 
 ### `npm start`
 
@@ -68,3 +99,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
