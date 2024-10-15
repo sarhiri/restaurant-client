@@ -37,7 +37,7 @@ function Footer() {
           <p>CONTACT</p>
           <p>PRESS</p>
         </div>
-        <p className="text-xs py-2">Sofia Sarhiri© All rights reserved.</p>
+        <p className="text-xs py-2">Sofia Sarhiri 2024© All rights reserved.</p>
       </footer>
       {/* Tiles beneath the content */}
       
