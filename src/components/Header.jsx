@@ -25,7 +25,7 @@ export default function Header() {
               className=" h-auto w-auto object-center" // Adjust size as needed
             />
           </div>
-          <h2 className="lg:text-9xl font-semibold tracking-tight text-white  font-arabic "> {/* Added margin to the left */}
+          <h2 className="lg:text-9xl font-semibold tracking-tight text-white font-arabic hidden sm:block "> {/* Added margin to the left */}
             Oualili
           </h2>
         </motion.div>
