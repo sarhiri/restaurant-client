@@ -2,7 +2,7 @@ import Slider from '../components/Slider'
 
 export default function Example() {
   return (
-    <section className="relative isolate  bg-gradient-to-b from-white via-gray-700 to-gray-900 px-10 lg:py-24 sm:py-32 ">
+    <section className="relative isolate  bg-gradient-to-b from-white via-gray-700 to-gray-900 px-10 lg:py-24 ">
       <div className="mx-auto max-w-2xl lg:max-w-6xl">
 {/*       
         <figure className="mt-10">
@@ -13,8 +13,9 @@ export default function Example() {
             </p>
           </blockquote>
         </figure> */}
-        
-        <Slider />
+        <div className="hidden md:block">
+          <Slider />
+        </div>
       </div>
     </section>
   )
