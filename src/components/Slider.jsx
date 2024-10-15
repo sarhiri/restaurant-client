@@ -45,6 +45,13 @@ const SimpleCarousel = () => {
             <div className="absolute inset-0 bg-black opacity-40 z-10"></div>
           </div>
         ))}
+          {/* Text overlay */}
+          <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-white text-center px-2">
+          <h1 className="text-4xl font-bold mb-4 shadow-sm">Our History</h1>
+          <p className="text-lg max-w-1xl px-10">
+          Moroccan Dadas are traditional female cooks, revered for their mastery of Moroccan cuisine, which blends Arab, Berber, Andalusian, and French influences. These women, often trained in royal or wealthy households, pass down generations of culinary knowledge, preparing iconic dishes such as tagines, couscous, and pastilla. Using time-honored techniques, they create meals rich in spices like cumin, saffron, and cinnamon, along with fresh herbs, dried fruits, and preserved lemons. The Dada's cooking is a reflection of Moroccan hospitality and culture, rooted in intricate flavors and the art of slow, thoughtful preparation.
+          </p>
+        </div>
       </div>
 
       {/* Slider controls */}
@@ -101,6 +108,7 @@ const SimpleCarousel = () => {
           />
         ))}
       </div>
+      
     </div>
   );
 };
