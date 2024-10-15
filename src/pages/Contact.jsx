@@ -34,7 +34,7 @@ export default function Example() {
   };
 
   return (
-    <>
+    < >
       <Header />
       <div className="isolate bg-white px-6 lg:py-10 sm:py-20 lg:px-8 border">
         <form action="#" method="POST" className="mx-auto max-w-xl sm:mt-10 p-10 border rounded-md shadow-xl">
